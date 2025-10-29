@@ -1,0 +1,264 @@
+🔹VARIABLES, SCOPE & HOISTING
+
+1. What are the differences between var, let, and const?
+
+2. What is hoisting in JavaScript?
+
+3. How does let and const behave differently from var during hoisting?
+
+4. What is the temporal dead zone (TDZ)?
+
+5. What happens if you declare a variable without var, let, or const?
+
+6. What’s the difference between global scope and block scope?
+
+7. Can you re-declare or reassign let or const variables?
+
+8. What is the output of this code and why?
+
+    console.log(a);
+    var a = 10;
+
+9. What happens if you try:
+
+    console.log(b);
+    let b = 20;
+
+10. Explain the difference between undefined and ReferenceError.
+
+11. Why does "use strict" matter in JavaScript?
+
+12. What happens when you assign a value to an undeclared variable in "use strict" mode?
+
+13. What are shadowing and illegal shadowing in JavaScript?
+
+14. Explain scope chain in JavaScript.
+
+15. Difference between local, global, and lexical scope.
+
+
+
+🔹 DATA TYPES & TYPE CONVERSION
+
+1. What are the primitive data types in JavaScript?
+
+2. What are non-primitive data types?
+
+3. What’s the output of:
+
+    console.log(typeof null);
+
+4. Explain why typeof null returns "object".
+
+5. What is a Symbol and why is it unique?
+
+6. Difference between == and === (loose vs strict equality).
+
+7. What happens in type coercion when comparing [] == false or [] == ''?
+
+8. How do you convert a string to a number in different ways?
+
+9. How do you convert a number to a string?
+
+10. What’s the result of:
+
+    Number("Tariq");
+    parseInt("Tariq");
+
+11. What is NaN and how do you check for it?
+
+12. What is the output of:
+
+    console.log(NaN === NaN);
+
+13. What are truthy and falsy values in JavaScript?
+
+14. How does JavaScript handle implicit type conversion?
+
+15. What’s the difference between null and undefined?
+
+16. How can you check if a variable is an array?
+
+17. What happens if you add a number and a string together?
+
+
+
+🔹 STRINGS
+
+1. What are different ways to declare strings in JavaScript?
+
+2. What are template literals and what makes them powerful?
+
+3. What is string interpolation?
+
+4. Are strings mutable or immutable in JavaScript?
+
+5. What’s the output of:
+
+    let str = "hello";
+    str[0] = "H";
+    console.log(str);
+
+6. How to get the length of a string?
+
+7. How to access the last character of a string?
+
+8. Explain the difference between slice(), substring(), and substr().
+
+9. How do you replace all occurrences of a substring?
+
+10. Difference between replace() and replaceAll().
+
+11. How can you split a string into an array?
+
+12. How to remove spaces from a string?
+
+13. How to check if a string starts or ends with a particular substring?
+
+14. How to make a string uppercase or lowercase?
+
+15. How to repeat a string multiple times?
+
+16. How to reverse a string in JavaScript?
+
+17. What happens when you do:
+
+    "5" + 5
+
+18. How to check if a string includes a specific word?
+
+
+
+🔹 NUMBERS & MATH
+
+1. What are different ways to declare numbers in JavaScript?
+
+2. Are integers and floats the same type in JS?
+
+3. What is the result of:
+
+    0.1 + 0.2 === 0.3
+
+4. Why does floating-point precision occur in JavaScript?
+
+5. What are special number values like NaN, Infinity, and -Infinity?
+
+6. How to check if a value is a finite number?
+
+7. How to round a number to 2 decimal places?
+
+8. Difference between toFixed() and toPrecision().
+
+9. How to convert a number to binary or hexadecimal?
+
+10. What’s the difference between parseInt() and Number()?
+
+11. How to get the absolute value of a number?
+
+12. How to get min/max value from a list of numbers?
+
+13. What does Math.trunc() do?
+
+14. How to generate a random number between 1 and 10?
+
+15. How to generate a random integer in a specific range (min–max)?
+
+16. What does Math.pow(2,3) return and what’s the ES6 alternative?
+
+17. How does Math.floor(), Math.ceil(), and Math.round() differ?
+
+18. How to get the square root of a number?
+
+19. What is the use of Math.random()?
+
+20. What’s the difference between Math.min() and Math.max()?
+
+
+
+🔹 DATE & TIME
+
+1. How do you create a Date object in JavaScript?
+
+2. How do you get the current date and time?
+
+3. How do you get just the current year/month/day?
+
+4. How do you get the current timestamp in milliseconds?
+
+5. How to convert a date into a readable string?
+
+6. What’s the difference between .toString() and .toISOString()?
+
+7. How to get date and time in your local format?
+
+8. How to calculate the difference between two dates (in days)?
+
+9. How to add or subtract days from a given date?
+
+10. How to compare two dates?
+
+11. How to format date as dd-mm-yyyy manually?
+
+12. How to get the current time in 12-hour format (e.g. “10:30 AM”)?
+
+13. What is Date.now() used for?
+
+14. How do you extract the day of the week (e.g., “Monday”)?
+
+15. What’s the output of:
+
+    new Date(2025, 0, 1)
+
+16. Why is the month parameter 0-based in JavaScript Dates?
+
+17. How to work with UTC time instead of local time?
+
+18. How to make a simple clock using setInterval() and Date()?
+
+
+
+🔹 MEMORY & INTERNALS (STACK vs HEAP)
+
+1. Explain the difference between stack and heap memory.
+
+2. Which data types are stored in stack and which in heap?
+
+3. What happens when you copy a primitive vs a reference value?
+
+4. Why does this happen:
+
+    let user1 = {name: "Tariq"};
+    let user2 = user1;
+    user2.name = "Akram";
+    console.log(user1.name);
+
+5. How can you make a true copy of an object (not a reference)?
+
+6. What is a shallow copy vs deep copy?
+
+7. How does garbage collection work in JavaScript?
+
+8. What happens when there are no references left to an object?
+
+9. How does JavaScript manage memory automatically?
+
+
+
+🔹 BONUS (CONCEPTUAL MIX)
+
+1. Difference between value type and reference type.
+
+2. What’s the difference between == and === in JS comparisons?
+
+3. Explain how JavaScript stores and accesses variables in memory.
+
+4. What happens if you try to access a variable before it’s declared?
+
+5. Why is typeof null “object”?
+
+6. Can const objects be mutated?
+
+7. What’s the output of:
+    js const person = {name: "Tariq"}; person.name = "Akram"; console.log(person.name);
+
+8. Why is JavaScript considered loosely typed or dynamically typed?
