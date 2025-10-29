@@ -21,3 +21,27 @@
  * Always copy the reference
  * Compared by reference
  */
+
+
+/**
+ * Stack memory
+ * 
+ * All the primitive datatypes fall in stack memory
+ * They stores actual value
+ * They copy value 
+ * Speed is fast than heap
+ * Memory cleanup -- Its auto when function ends
+ */
+
+
+
+/**
+ * Heap memory
+ * 
+ * All the non-primitive datatypes fall in heap memory
+ * They stores its reference (memory address)
+ * They called upon its reference
+ * Speed is slower than stack
+ * Memory cleanup -- Garbage collected
+ * 
+ */
